@@ -1,0 +1,100 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #222;
+}
+
+.header {
+  background-color: #2563eb;
+  color: white;
+  padding: 22px 10px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.main {
+  flex: 1;
+  padding: 35px 15px;
+}
+
+.profile {
+  max-width: 420px;
+  margin: 25px auto;
+  padding: 25px;
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile h2 {
+  color: #1d4ed8;
+  margin-top: 0;
+}
+
+.profile p {
+  font-size: 17px;
+  margin: 16px 0;
+}
+
+.count {
+  font-size: 22px !important;
+  font-weight: bold;
+  color: #15803d;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+button {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.reset {
+  background-color: #dc2626;
+}
+
+.toggle {
+  background-color: #15803d;
+}
+
+.footer {
+  background-color: #1e293b;
+  color: white;
+  padding: 15px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 22px;
+  }
+
+  .profile {
+    padding: 18px;
+  }
+}
